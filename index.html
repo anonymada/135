@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="chronometre">
+        
+        <div class="container">
+            <div class="chrono"> 
+                <span id="hours">00</span>:
+                <span id="minute">00</span>:
+                <span id="second">00</span>:
+                <span id="mili-second">00</span>
+            </div>
+            <div id="button">
+                <button type="button" onclick="start()" class="start">start</button>
+                <button type="button" onclick="stop()" class="stop">stop</button>
+                <button type="button" onclick="save()" class="save">save</button>
+                <button type="button" onclick="reset()" class="reset">reset</button>
+            </div>
+    
+            <div id="save"> </div>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>

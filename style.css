@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#chronometre{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.chrono{
+    font-size: 35px;
+    color: gray;
+}
+
+button{
+    width: 78px;
+    height: 45px;
+    border-radius: 5px;
+    background-color: rgba(0, 89, 255, 0.877);
+    color: white;
+    border: none;
+    font-size: 18px;
+}
+
+#save{
+    font-size: 35px;
+    color: white;
+    padding-top: 45px;
+}
+
+.container{
+    width: 800px;
+    height: 400px;
+    background: linear-gradient(to right, #33ccff 5%, #cc66ff 65%);
+    padding: 45px;
+    overflow: scroll;
+}
